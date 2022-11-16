@@ -18,15 +18,37 @@ export default function Header() {
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">HOME</Link>
               </li>
+
+
               <li className="nav-item">
-                <Link className="nav-link" to='/memorizacao' >MEMORIZAÇÃO</Link>
+              <Link className="nav-link " to="/info">INFORMAÇÕES</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to='/contra' >JOGO DO CONTRA</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to='/contato' >CONTATO</Link>
-              </li>
+            <div className="dropdown">
+              <button className="btn btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                JOGOS
+              </button>
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li className="nav-item"><Link className="dropdown-item nav-link" to='/memorizacao'>MEMORIZAÇÃO</Link></li>
+                <li className="nav-item"><Link className="dropdown-item nav-link" to='/contra'>JOGO DO CONTRA</Link></li>
+              </ul>
+            </div>
+
+            <div className="dropdown">
+              <button className="btn btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                PERFIS
+              </button>
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li className="nav-item"><Link className="dropdown-item nav-link" to='#'>Pais, mães e cuidadores</Link ></li>
+                <li className="nav-item"><Link className="dropdown-item nav-link" to="#">Crianças</Link></li>
+                <li className="nav-item"><Link  className="dropdown-item nav-link" href="#">Médicos</Link></li>
+                <li className="nav-item"><Link  className="dropdown-item nav-link" href="#">Profissionais de apoio</Link></li>
+              </ul>
+            </div>
+
+            <li className="nav-item">
+              <Link className="nav-link" to='/contato'>CONTATO</Link>
+            </li>
+          
             </ul>
             <form className="d-flex">
               <button id="btn-entrar" className="btn btn-warning btn-lg"><Link to="/login" >Entrar</Link></button>

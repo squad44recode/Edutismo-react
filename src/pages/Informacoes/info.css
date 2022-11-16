@@ -1,0 +1,18 @@
+.banner {
+  max-width: 100%;
+  margin-top: 10px;
+  border: 1px solid rgb(255, 153, 0);
+  border-radius: 50px;
+}
+
+.cardInfo{
+  width: 18rem;
+}
+
+.menu {
+  display: flex;
+}
+
+.imgCard {
+  width: 100px;
+}

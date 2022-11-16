@@ -8,6 +8,7 @@ import big from "/src/assets/img/edutismo/big.svg";
 
 import styles from "/src/pages/Memorizacao/memo.module.css";
 
+import './script.js';
 
 export default function Memorizacao() {
   return (
@@ -48,7 +49,6 @@ export default function Memorizacao() {
         </div>
     </main>
       <Footer />
-      <script src="./script.js"></script>
     </>
   )
 }

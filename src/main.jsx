@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route, } from 'react-router-dom'
 import App from './App'
 import './index.css'
-import Cadastro from './pages/Cadastro'
 
 // PAGES
+import Cadastro from './pages/Cadastro'
 import Contato from './pages/Contato'
 import Contra from './pages/Contra'
 import Entrar from './pages/Entrar'
 import Home from './pages/Home'
 import Memorizacao from './pages/Memorizacao'
+import Informacoes from './pages/Informacoes'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/contra' element={<Contra />} />
         <Route path='/login' element={<Entrar />} />
         <Route path='/cadastro' element={<Cadastro />} />
+        <Route path='/info' element={<Informacoes />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
