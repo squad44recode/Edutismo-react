@@ -1,0 +1,51 @@
+.form-main{
+  grid-area: 2 / 2 / span 3 / span 3;
+  padding: 3rem;
+
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+h2{
+  font-family: 'Fredoka One', cursive;
+  color: #ff792e!important;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #021f59;
+}
+
+input{
+  background-color: #c8e6ff62!important;
+}
+
+/*Break points | Responsividade do menu na tela*/
+@media only screen and (min-width: 768px) {
+   .menu-responsivo {
+    display: none;
+  }
+}
+
+/*Break points | Responsividade do menu*/
+@media only screen and (max-width: 768px) {
+  .img-log{
+    display: none;
+  } .menu-normal{
+    display: none;
+
+  } .form-main, footer >  p{
+    font-size: 10px;
+  } main{
+    margin-top: .5rem;
+
+  } header{
+    display: block;
+
+  } #btn-entrar {
+    padding: 0;
+
+  } h2 {
+    font-size: 18px;
+  }
+
+}

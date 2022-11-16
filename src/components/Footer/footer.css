@@ -1,0 +1,14 @@
+.text-muted{
+  font-family: 'Montserrat', sans-serif;
+  color: #021F59!important;
+}
+
+.text-muted:hover{
+  color: #FFD51E!important;
+}
+
+@media (max-width: 768px) {
+  .text-muted {
+    font-size: 10px;
+  }
+}
