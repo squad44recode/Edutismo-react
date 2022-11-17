@@ -5,14 +5,74 @@
   border-radius: 50px;
 }
 
+span{
+  color: #5e17eb;
+}
+
 .cardInfo{
   width: 18rem;
+  cursor: pointer;
+  margin-left: 10px;
+
+  --bs-card-border-color: #5e17eb!important;
+
 }
+
+.cardInfo:hover{
+  background-color: #5e17eb65;
+  color: #fff;
+}
+
 
 .menu {
   display: flex;
 }
 
+.cardBody{
+  display: flex!important;
+  flex-direction: column-reverse!important;
+  flex: 0!important;
+  text-align: center;
+
+  
+}
+
 .imgCard {
   width: 100px;
+  cursor: pointer;
+  margin: 0 auto;
 }
+
+.card-link {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  background-color: darkorange;
+  opacity: 90%;
+  border-radius: 40px;
+}
+
+.blog{
+  background-color: #5e17eb;
+  padding-bottom: 5rem;
+  margin-top: 4rem;
+}
+
+.titleBlog {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mainBlog {
+  display: flex;
+  justify-content: center;
+}
+
+.imgBlog{
+  width: 18rem;
+  margin-left: 5rem;
+}
+
+.linkBlog {
+  background-color: none!important;
+}
+
