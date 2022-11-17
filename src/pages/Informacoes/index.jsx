@@ -8,6 +8,9 @@ import apoio from '/src/assets/img/assistencia-social.png'
 import arte from '/src/assets/img/arte.jpg'
 import sono from '/src/assets/img/sono.jpg'
 import aula from '/src/assets/img/aula.jpg'
+import monica from '/src/assets/img/monica.jpg'
+import autismo from '/src/assets/img/autismoAp.jpg'
+import duvida from '/src/assets/img/duvida.png'
 
 import { Link } from "react-router-dom";
 
@@ -59,38 +62,67 @@ export default function Informacoes() {
     <h2 className="titleBlog">Blog</h2>
       <div className="mainBlog">
         <div className="card imgBlog">
-        <img src={arte} class="card-img-top" alt="..."/>
-        <div className="card-body">
-          <h5 className="card-title">Arteterapia: quando a arte faz parte do tratamento do autismo</h5>
-          <p className="card-text">Você já ouviu falar sobre a arteterapia? Trata-se de um tratamento que..</p>
+          <img src={arte} class="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Arteterapia: quando a arte faz parte do tratamento do autismo</h5>
+            <p className="card-text">Você já ouviu falar sobre a arteterapia? Trata-se de um tratamento que..</p>
+          </div>
+          <div className="card-body">
+            <Link href="#" class="linkBlog">Leia Mais</Link>
+          </div>
         </div>
-        <div className="card-body">
-          <Link href="#" class="linkBlog">Leia Mais</Link>
-        </div>
-            </div>
-        
-            <div className="card imgBlog">
-        <img src={sono} class="card-img-top" alt="..."/>
-        <div className="card-body">
-          <h5 className="card-title">Autismo e sono: por que muitas crianças e adolescentes têm problemas para dormir?</h5>
-          <p className="card-text">Autismo e sono - ou melhor, autismo e a falta de sono - muitas vezes são..</p>
-        </div>
-        <div className="card-body">
-          <Link href="#" class="linkBlog">Leia Mais</Link>
-        </div>
-            </div>
         
         <div className="card imgBlog">
-        <img src={aula} class="card-img-top" alt="..."/>
-        <div className="card-body">
-          <h5 className="card-title">Autismo na educação infantil: 10 ideias para uma sala de aula inclusiva</h5>
-          <p className="card-text">Trazer o autismo para o contexto da sala de aula é, sem dúvida, um..</p>
+          <img src={sono} class="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Autismo e sono: por que muitas crianças e adolescentes têm problemas para dormir?</h5>
+            <p className="card-text">Autismo e sono - ou melhor, autismo e a falta de sono - muitas vezes são..</p>
+          </div>
+          <div className="card-body">
+            <Link href="#" class="linkBlog">Leia Mais</Link>
+          </div>
         </div>
-        <div className="card-body">
-          <Link href="#" class="linkBlog">Leia Mais</Link>
+        
+        <div className="card imgBlog">
+          <img src={aula} class="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Autismo na educação infantil: 10 ideias para uma sala de aula inclusiva</h5>
+            <p className="card-text">Trazer o autismo para o contexto da sala de aula é, sem dúvida, um..</p>
+          </div>
+          <div className="card-body">
+            <Link href="#" class="linkBlog">Leia Mais</Link>
+          </div>
         </div>
-            </div>
       </div>
+      <button className="buttonBl">Veja Mais</button>
+    </section>
+
+    <h2 className="titleAp">INFORMAÇÕES DE APOIO</h2>
+    <section className='infoAdd'>
+
+    <div className="card imgInfo">
+          <img src={monica} class="card-img-top card-Img" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title infoAp"><Link>CARTILHAS</Link></h5>
+            <p className="card-text infoP">Revistas, gibis, livretos e diversos outros materiais para você baixar e ficar em dia com o autismo. Aproveite!</p>
+          </div>
+        </div>
+
+        <div className="card imgInfo">
+          <img src={autismo} class="card-img-top card-Img" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title infoAp"><Link>ENTIDADE DE APOIO</Link></h5>
+            <p className="card-text infoP">Entidades, associações e grupos de apoio e suporte ao autista e seus familiares.</p>
+          </div>
+        </div>
+
+        <div className="card imgInfo">
+          <img src={duvida} class="card-img-top card-Img" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title infoAp"><Link>DÚVIDAS FREQUENTES</Link></h5>
+            <p className="card-text infoP">Confira as principais dúvidas frequentes dos nossos colaboladores.</p>
+          </div>
+        </div>
 
     </section>
 

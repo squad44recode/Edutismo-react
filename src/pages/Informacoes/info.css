@@ -14,8 +14,7 @@ span{
   cursor: pointer;
   margin-left: 10px;
 
-  --bs-card-border-color: #5e17eb!important;
-
+  --bs-card-border-color: #5e17eb!important; 
 }
 
 .cardInfo:hover{
@@ -33,6 +32,7 @@ span{
   flex-direction: column-reverse!important;
   flex: 0!important;
   text-align: center;
+  
 
   
 }
@@ -52,14 +52,16 @@ span{
 }
 
 .blog{
-  background-color: #5e17eb;
-  padding-bottom: 5rem;
+  background-color: #68cdec86;
+  padding-bottom: 1rem;
   margin-top: 4rem;
 }
 
 .titleBlog {
   text-align: center;
   margin-bottom: 2rem;
+  text-shadow:3px 3px 3px #0000008c ;
+
 }
 
 .mainBlog {
@@ -70,9 +72,59 @@ span{
 .imgBlog{
   width: 18rem;
   margin-left: 5rem;
+  box-shadow: 3px 3px 3px #0000008c;
+
 }
 
 .linkBlog {
   background-color: none!important;
 }
 
+.titleAp{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.buttonBl {
+    display: block;
+    margin: 4rem auto;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to bottom left, rgb(132, 0, 255), #47caf1c4);
+    box-shadow: 3px 3px 3px #0000008c;
+    color: #fff;
+    text-shadow:3px 3px 3px #0000008c ;
+}
+
+.imgInfo{
+  width: 18rem;
+  border: none;
+  --bs-card-inner-border-radius: calc(4rem - 1px);
+
+}
+
+.card-Img {
+    max-width: 10rem;
+    border-bottom-right-radius: var(--bs-card-inner-border-radius);
+    border-bottom-left-radius: var(--bs-card-inner-border-radius);
+    margin: 0 auto;
+}
+
+.infoAdd{
+  display: flex;
+  justify-content: center;
+
+}
+
+.infoAp{
+  text-align: center; 
+}
+
+.infoAp:hover {
+text-decoration: underline;
+}
+
+.infoP {
+  text-align: center;
+}
