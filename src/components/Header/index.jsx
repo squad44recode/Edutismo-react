@@ -16,7 +16,7 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">HOME</Link>
+                <Link className="nav-link" aria-current="page" to="/">HOME</Link>
               </li>
 
 
@@ -38,10 +38,10 @@ export default function Header() {
                 PERFIS
               </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li className="nav-item"><Link className="dropdown-item nav-link" to='#'>Pais, mães e cuidadores</Link ></li>
+                <li className="nav-item"><Link className="dropdown-item nav-link" to='/pais'>Pais, mães e cuidadores</Link ></li>
                 <li className="nav-item"><Link className="dropdown-item nav-link" to="#">Crianças</Link></li>
-                <li className="nav-item"><Link  className="dropdown-item nav-link" href="#">Médicos</Link></li>
-                <li className="nav-item"><Link  className="dropdown-item nav-link" href="#">Profissionais de apoio</Link></li>
+                <li className="nav-item"><Link  className="dropdown-item nav-link" to="#">Médicos</Link></li>
+                <li className="nav-item"><Link  className="dropdown-item nav-link" to="#">Profissionais de apoio</Link></li>
               </ul>
             </div>
 

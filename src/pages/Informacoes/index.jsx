@@ -29,7 +29,7 @@ export default function Informacoes() {
         <div className="card-body cardBody">
           <h3 className="card-title">Pais, mães e cuidadores</h3>
           <img className="imgCard" src={familia} alt="" />
-          <Link href="#" className="card-link">Acessar</Link>
+          <Link to='/pais' className="card-link">Acessar</Link>
         </div>
       </div>
 

@@ -12,6 +12,7 @@ import Entrar from './pages/Entrar'
 import Home from './pages/Home'
 import Memorizacao from './pages/Memorizacao'
 import Informacoes from './pages/Informacoes'
+import Pais from './pages/Pais'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/login' element={<Entrar />} />
         <Route path='/cadastro' element={<Cadastro />} />
         <Route path='/info' element={<Informacoes />} />
+        <Route path='/pais' element={<Pais />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
